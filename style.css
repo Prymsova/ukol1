@@ -1,0 +1,99 @@
+body {
+    color: #141414;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 30px 10%;
+    background-color: lightblue;
+}
+
+section {
+    padding: 20px 10%;
+    overflow: auto;
+    background-color: #FFFAFA;
+}
+
+.hlavicka {
+    padding: 20px 10%;
+    overflow: auto;
+    /*border: 2px solid #141414;*/
+    /*margin: 30px 10%;*/
+    background: snow;
+}
+
+#vizitka {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#kdoJsem {
+    font-size: 20px;
+}
+
+.mojeFoto {
+    width: 150px;
+    border-radius: 15%;
+    border: 1px solid #141414;
+    float: left;
+    margin: 30px 30px 30px 5px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    border: 1px solid #00687f;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #00687f;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: lightblue;
+}
+
+.paticka{
+    color: lightblue;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.paticka p {
+    margin: 0px;
+}
+
+h3,
+h4 {
+    color: #00687f;
+}
+
+h2 {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid #00687f;
+    margin: 20px 0px 0px 0px;
+}
+h4 {
+    margin: 10px 0px;
+}
+p {
+    margin-top: 0px;
+}
+
+
+/* https://www.color-hex.com/color/add8e6 */
