@@ -1,149 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Anna Prymsova</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Anna Prymšová</title>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
+    <!--Hlavička stránky-->
+    <header class="hlavicka">
+      
+      <h1>Mgr. Anna Prymšová</h1>
+      
+      <p id="kdoJsem">
+        <img
+        class="mojeFoto"
+        src="foto/mojeFoto.jpg"
+        alt="fotografie Anny Prymšové"
+        />
+        Jsem vystudovaná geografka se zaměřením na
+        <strong>geoinformatiku a studium krajiny</strong>. V posledním roce si
+        díky pestré nabídce online kurzů rozšiřuji znalosti v oblasti IT –
+        <strong
+          >algoritmizace, JavaScript a tvorba webových stránek pomocí HTML a
+          CSS</strong
+        >. V práci jsem se realizovala jako <strong>datová analytička</strong> a
+        oblíbila jsem si hledání neprobádaných cest při zpracovávání zadávaných
+        témat. Ráda se dozvídám a učím nové věci.
+      </p>
 
-<!--Hlavička stránky-->
-<header class="hlavicka">
-    <img class="mojeFoto" src="foto/mojeFoto.jpg" alt="fotografie Anny Prymšové">
-    <h1>Anna Prymšová</h1>
-    <p id="vizitka">Telefon: 728553270<br>
-    E-mail: <a href="mailto:anca7@centrum.cz">anca7@centrum.cz</a></p>
-    <p id="kdoJsem">Jsem vystudovaná geografka se zaměřením na <strong>geoinformatiku a studium krajiny</strong>. V posledním roce si díky pestré nabídce online kurzů rozšiřuji znalosti v oblasti IT – <strong>algoritmizace, JavaScript a tvorba webových stránek pomocí HTML a CSS</strong>. V práci jsem se realizovala jako <strong>datová analytička</strong> a oblíbila jsem si hledání neprobádaných cest při zpracovávání zadávaných témat. Ráda se dozvídám a učím nové věci.</p>
+    </header>
 
-    <!--menu-->
-    <ul class="menu">
+    <section class="kontaktMenu">
+      <p id="kontakt">
+        Kontakt: +420 728 553 270, <a href="mailto:anca7@centrum.cz">anca7@centrum.cz</a>
+      </p>
+
+      <!--menu-->
+      <ul class="menu">
         <li><a href="#praxe">Praxe</a></li>
         <li><a href="#vzdelani">Vzdělání</a></li>
         <li><a href="#znalostiADovednosti">Znalosti a dovednosti</a></li>
         <li><a href="#zajmy">Zájmy</a></li>
-    </ul>
+      </ul>
 
-</header>
+    </section>
 
+    <!--sekce Praxe-->
+    <section class="praxe" id="praxe">
+      <!--název sekce-->
+      <h2>Praxe</h2>
 
-<!--sekce Praxe-->
-<section class="praxe" id="praxe">
+      <!-- název pozice-->
+      <h3>korektorka textu</h3>
 
-    <!--název sekce-->
-    <h2>Praxe</h2>
+      <!--místo a čas-->
+      <h4>
+        Krajský úřad Královéhradeckého kraje<br />
+        03-05/2019
+      </h4>
 
-    <!-- název pozice-->
-    <h3>korektorka textu</h3>
+      <!--náplň činnosti-->
+      <p>
+        Náplň činnosti: jazyková korektura a předtisková korektura sazby brožury
+        Tipy na výlety v Královéhradeckém kraji
+      </p>
 
-    <!--místo a čas-->
-    <h4>Krajský úřad Královéhradeckého kraje<br>
-        03-05/2019</h4>
-    
-        <!--náplň činnosti-->
-        <p>Náplň činnosti: jazyková korektura a předtisková korektura sazby brožury Tipy na výlety v Královéhradeckém kraji</p>
+      <!--název pozice-->
+      <h3>analytička</h3>
 
-    <!--název pozice-->
-    <h3>analytička</h3>
+      <h4>
+        Odbor pro strategii, Rektorát Masarykovy univerzity v Brně<br />
+        05-08/2018
+      </h4>
 
-    <h4>Odbor pro strategii, Rektorát Masarykovy univerzity v Brně<br>
-        05-08/2018</h4>
-    
-        <p>Náplň činnosti: vyhodnocení studentského průzkumu a analýza datové sady o předchozích studiích na jiných vysokých školách, sepsání závěrečné zprávy</p>
-        
-        
-    <!--název pozice-->
-    <h3>analytička</h3>
-    <h4>Odbor pro strategii, Rektorát Masarykovy univerzity v Brně<br>
-        08/2013 - 08/2016</h4>
-        
-        <p>Náplň činnosti:</p>
-        <!--možná ještě změnit obsah v odrážkách podle wordu-->
-        <ul>
-            <li>Analytická činnost především v oblasti dat o studiích a studentech Masarykovy univerzity, zpracování analýz dle potřeb vedení Masarykovy univerzity</li>
-            <li>Tvorba studentských a absolventských průzkumů, jejich realizace a vyhodnocování výsledků</li>
-            <li>Tvorba závěrečných zpráv z průzkumů a jiných analytických činností</li>
-            <li>Příprava tabulkové části Výroční zprávy o činnosti Masarykovy univerzity, shromažďování a konzultace vstupních dat, jejich definování a zpracování metodiky jednotného vykazování dat</li>
-            <li>Spolupráce na přípravě celorepublikové odborné konference a zajištění jejího chodu</li>
-        </ul>
+      <p>
+        Náplň činnosti: vyhodnocení studentského průzkumu a analýza datové sady
+        o předchozích studiích na jiných vysokých školách, sepsání závěrečné
+        zprávy
+      </p>
 
-    <p><a href="#">Nahoru</a></p>
-</section>
+      <!--název pozice-->
+      <h3>analytička</h3>
+      <h4>
+        Odbor pro strategii, Rektorát Masarykovy univerzity v Brně<br />
+        08/2013 - 08/2016
+      </h4>
 
+      <p>Náplň činnosti:</p>
+      <!--možná ještě změnit obsah v odrážkách podle wordu-->
+      <ul>
+        <li>
+          Analytická činnost především v oblasti dat o studiích a studentech
+          Masarykovy univerzity, zpracování analýz dle potřeb vedení Masarykovy
+          univerzity
+        </li>
+        <li>
+          Tvorba studentských a absolventských průzkumů, jejich realizace a
+          vyhodnocování výsledků
+        </li>
+        <li>
+          Tvorba závěrečných zpráv z průzkumů a jiných analytických činností
+        </li>
+        <li>
+          Příprava tabulkové části Výroční zprávy o činnosti Masarykovy
+          univerzity, shromažďování a konzultace vstupních dat, jejich
+          definování a zpracování metodiky jednotného vykazování dat
+        </li>
+        <li>
+          Spolupráce na přípravě celorepublikové odborné konference a zajištění
+          jejího chodu
+        </li>
+      </ul>
 
-<!--sekce Vzdělání-->
-<section class="vzdelani" id="vzdelani">
+      <p class="nahoru"><a href="#">Nahoru</a></p>
+    </section>
 
-    <h2>Vzdělání</h2>
+    <!--sekce Vzdělání-->
+    <section class="vzdelani" id="vzdelani">
+      <h2>Vzdělání</h2>
 
-    <h3>Titul Mgr. v oboru Aplikovaná geografie</h3>
-    <h4>Přírodovědecká fakulta, Masarykova univerzita v Brně<br>
-        09/2009 - 01/2013</h4>
-        <p>Získané odborné znalosti v oblastech: tvorba statických webů pomocí XHTML a CSS, vizualizace pomocí SLD, OpenLayers, SVG, KML, WMS, WFS, zpracování leteckých a družicových snímků v programech ArcGIS, EOScape či MultiSpec, mapová algebra, územní plánování a urbanismus, analýzy trhu práce a další</p>
-    
-    <h3>Titul Bc. v oboru Geoinformatika a trvalá udržitelnost</h3>
-    <h4>Přírodovědecká fakulta, Masarykova univerzita v Brně<br>
-        09/2006 - 06/2009</h4>
-        <p>Získané odborné znalosti v oblastech: tvorba tematických map (především v rámci programu ArcGIS Desktop vč. extenzí jako Spatial Analyst, Image Analyst, 3D Analyst aj.), relační databáze a dotazování pomocí MySQL, fyzická geografie, krajinná ekologie, humánní geografie, demografie a další</p>
+      <h3>Titul Mgr. v oboru Aplikovaná geografie</h3>
+      <h4>
+        Přírodovědecká fakulta, Masarykova univerzita v Brně<br />
+        09/2009 - 01/2013
+      </h4>
+      <p>
+        Získané odborné znalosti v oblastech: tvorba statických webů pomocí
+        XHTML a CSS, vizualizace pomocí SLD, OpenLayers, SVG, KML, WMS, WFS,
+        zpracování leteckých a družicových snímků v programech ArcGIS, EOScape
+        či MultiSpec, mapová algebra, územní plánování a urbanismus, analýzy
+        trhu práce a další
+      </p>
 
-    <h5>Další studium</h5>
-    <h4>2020-2021 IT oblast</h4>
-    <p>jednodenní kurzy od Czechitas na témata Algoritmizace, Manuální testování, JavaScript, tvorba webových stránek pomocí HTML a CSS</p>
-    <h4>jaro 2019 geoinformatika, program ArcGIS</h4>
-    <p>certifikované online kurzy od ESRI Academy: DIY Geo Apps, Cartography</p>
+      <h3>Titul Bc. v oboru Geoinformatika a trvalá udržitelnost</h3>
+      <h4>
+        Přírodovědecká fakulta, Masarykova univerzita v Brně<br />
+        09/2006 - 06/2009
+      </h4>
+      <p>
+        Získané odborné znalosti v oblastech: tvorba tematických map (především
+        v rámci programu ArcGIS Desktop vč. extenzí jako Spatial Analyst, Image
+        Analyst, 3D Analyst aj.), relační databáze a dotazování pomocí MySQL,
+        fyzická geografie, krajinná ekologie, humánní geografie, demografie a
+        další
+      </p>
 
-    <p><a href="#">Nahoru</a></p>
-</section>
+      <h3>Další studium</h3>
+      <h4>2020-2021 IT oblast</h4>
+      <p>
+        jednodenní kurzy od Czechitas na témata Algoritmizace, Manuální
+        testování, JavaScript, tvorba webových stránek pomocí HTML a CSS
+      </p>
+      <h4>jaro 2019 geoinformatika, program ArcGIS</h4>
+      <p>
+        certifikované online kurzy od ESRI Academy: DIY Geo Apps, Cartography
+      </p>
 
+      <p class="nahoru"><a href="#">Nahoru</a></p>
+    </section>
 
-<!--sekce Znalosti a dovednosti-->
-<section class="znalostiADovednosti" id="znalostiADovednosti">
-    
-    <h2>Znalosti a dovednosti</h2>
+    <!--sekce Znalosti a dovednosti-->
+    <section class="znalostiADovednosti" id="znalostiADovednosti">
+      <h2>Znalosti a dovednosti</h2>
 
-    <h5>Jazyková výbava (pro záminku vložení tabulky)</h5>
-    <table>
+      <h3>Jazyková výbava (pro záminku vložení tabulky)</h3>
+      <table>
         <tr>
-            <th>Jazyk</th>
-            <th>Úroveň znalosti</th>
+          <th>Jazyk</th>
+          <th>Úroveň znalosti</th>
         </tr>
         <tr>
-            <td>Angličtina</td>
-            <td>Porozumění odbornému psanému textu a běžná konverzace</td>
+          <td>Angličtina</td>
+          <td>Porozumění odbornému psanému textu a běžná konverzace</td>
         </tr>
         <tr>
-            <td>Francouzština</td>
-            <td>Základní koverzace</td>
+          <td>Francouzština</td>
+          <td>Základní koverzace</td>
         </tr>
         <tr>
-            <td>Latina</td>
-            <td>Jazykový rozbor psaného textu :-)</td>
+          <td>Latina</td>
+          <td>Jazykový rozbor psaného textu :-)</td>
         </tr>
-    </table>
+      </table>
 
-    <h5>Další znalosti a dovednosti</h5>
-    <ul>
+      <h3>Další znalosti a dovednosti</h3>
+      <ul>
         <li>řidičský průkaz sk. B, momentálně ve stavu hibernace</li>
-        <li>dobré komunikativní a organizační dovednosti (např. realizace workshopu se zástupci fakult Masarykovy univerzity)</li>
+        <li>
+          dobré komunikativní a organizační dovednosti (např. realizace
+          workshopu se zástupci fakult Masarykovy univerzity)
+        </li>
         <li>pečlivost, perfekcionalismus, důraz na detail</li>
         <li>zodpovědnost, samostatnost</li>
         <li>výborná paměť v kombinaci s analytickým myšlením</li>
-        <li>schopnost hledat nové úhly pohledy či způsoby zpracování daného tématu</li>
-        <li>vysvětlování a doučování probírané látky na gymnáziu (chemie) i na vysoké škole (statistika a prostorové analýzy, digitální zpracování obrazu aj.), tvorba metodických materiálů (např. metodika k podkladovým datům, postup pro zpracování analýz)</li>
-    </ul>
+        <li>
+          schopnost hledat nové úhly pohledy či způsoby zpracování daného tématu
+        </li>
+        <li>
+          vysvětlování a doučování probírané látky na gymnáziu (chemie) i na
+          vysoké škole (statistika a prostorové analýzy, digitální zpracování
+          obrazu aj.), tvorba metodických materiálů (např. metodika k
+          podkladovým datům, postup pro zpracování analýz)
+        </li>
+      </ul>
 
-    <p><a href="#">Nahoru</a></p>
-</section>
+      <p class="nahoru"><a href="#">Nahoru</a></p>
+    </section>
 
+    <!--sekce Zájmy-->
+    <section class="zajmy" id="zajmy">
+      <h2>Zájmy</h2>
 
-<!--sekce Zájmy-->
-<section class="zajmy" id="zajmy">
-
-    <h2>Zájmy</h2>
-    
-    <ul>
+      <ul>
         <li>webová kartografie</li>
         <li>hlavolamy, algoritmizace</li>
         <li>český jazyk a korektury textu</li>
@@ -151,17 +224,17 @@
         <li>výletování po České republice</li>
         <li>fotografování</li>
         <li>české pivo</li>
-    </ul>
+      </ul>
 
-    <p><a href="#">Nahoru</a></p>
-</section>
+      <p class="nahoru"><a href="#">Nahoru</a></p>
+    </section>
 
-
-<!--Patička stránky-->
-<footer class="paticka">
-    <p>© 2021 Anna Prymšová, pod laskavým vedením týmu <a href="http://czechitas.cz">Czechitas</a></p>
-</footer>
-
-
-</body>
+    <!--Patička stránky-->
+    <footer class="paticka">
+      <p>
+        © 2021 Anna Prymšová, pod laskavým vedením týmu
+        <a href="http://czechitas.cz">Czechitas</a>
+      </p>
+    </footer>
+  </body>
 </html>
