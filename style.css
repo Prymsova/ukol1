@@ -43,6 +43,21 @@ section {
     margin: 0px 30px 30px 0px;
 }
 
+.link {
+    color: #141414;
+}
+
+.link--h3 {
+    color: #00687f;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+    color: lightblue;
+}
+
 .menu {
     padding: 0px;
     margin: 0px;
